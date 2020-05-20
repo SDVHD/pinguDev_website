@@ -1,0 +1,10 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    padding: 50px;
+    background-color: rgb(44, 44, 195);
+}
+body {
+    background-color: grey;
+}
