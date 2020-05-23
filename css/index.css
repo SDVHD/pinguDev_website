@@ -2,8 +2,8 @@
     font-family: 'Roboto', sans-serif;
 }
 header {
-    padding: 50px;
-    background-color: rgb(44, 44, 195);
+    background-color: aliceblue;
+    width: 100%;
 }
 body {
     background-color: grey;
@@ -19,3 +19,30 @@ nav {
     border-style: none;
     padding: 15px;
 }
+.div_dreieck {
+    width: 0%;
+    height: 0;
+    border-left: 1509px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 100px solid cornflowerblue;
+  }
+  nav {
+    background-color: black;
+    width: 100%;
+  }
+  .btn_nav {
+    background-color: black;
+    color: blanchedalmond;
+    border-style: none;
+    padding: 10px;
+  }
+  .btn_nav:hover {
+    background-color: rgb(138, 132, 132);
+    color: black;
+    border-style: none;
+    padding: 10px;
+  }
+  #div_titel {
+      padding: 5px;
+      background-color: cornflowerblue;
+  }
