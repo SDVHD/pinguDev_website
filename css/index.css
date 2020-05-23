@@ -4,6 +4,7 @@
 header {
     background-color: aliceblue;
     width: 100%;
+    background-image: url(../pictures/header_1_Zeichenfläche\ 1.png);
 }
 body {
     background-color: grey;
@@ -19,14 +20,7 @@ nav {
     border-style: none;
     padding: 15px;
 }
-.div_dreieck {
-    width: 0%;
-    height: 0;
-    border-left: 1509px solid transparent;
-    border-right: 0px solid transparent;
-    border-bottom: 100px solid cornflowerblue;
-  }
-  nav {
+nav {
     background-color: black;
     width: 100%;
   }
