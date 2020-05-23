@@ -4,7 +4,7 @@
 header {
     background-color: aliceblue;
     width: 100%;
-    background-image: url(../pictures/header_1_Zeichenfläche\ 1.png);
+    background-image: url("../pictures/header_1_Zeichenfläche\ 1.png");
 }
 body {
     background-color: grey;
@@ -36,3 +36,6 @@ nav {
     border-style: none;
     padding: 10px;
   }
+.div_header {
+    background-image: url("../pictures/header_1_Zeichenfläche\ 1.png");
+}
