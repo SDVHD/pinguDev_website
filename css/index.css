@@ -52,11 +52,10 @@ nav {
   }
 article {
     background-color: rgb(37, 37, 37);
-    width: 100%;
-    height: 1000px;
     border-radius: 5px;
     text-align: center;
     margin-top: 10px;
+    padding: 15px ;
 }
 .div_content_header {
     padding: 50px;
@@ -70,5 +69,24 @@ article {
     border-radius: 10px;
 }
 .div_content_github {
-    margin-top: 100px;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: rgba(192, 192, 192, 0.5);
+    text-align: center;
+}
+input[type=text]{
+    box-sizing: border-box;
+    background-color: rgba(192, 192, 192, 0.5);;
+    border: none;
+    border-bottom: 5px, solid, aliceblue;
+    font-size: 30px;
+    padding: 5px;
+}
+input[type=email]{
+    box-sizing: border-box;
+    background-color: rgba(192, 192, 192, 0.5);;
+    border: none;
+    border-bottom: 5px, solid, aliceblue;
+    font-size: 30px;
+    padding: 5px;
 }
