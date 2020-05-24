@@ -72,26 +72,3 @@ article {
 .div_content_github {
     margin-top: 100px;
 }
-.div_content_github_btn{
-    background-color: black;
-    color: blanchedalmond;
-    border-style: none;
-    font-size: 40px;
-    padding: 20px;
-    border-radius: 15px;
-}
-.div_content_github_btn:hover{
-    background-color: rgba(192, 192, 192, 0.5);
-    color: blanchedalmond;
-    border-style: none;
-    font-size: 40px;
-    padding: 20px;
-    border-radius: 15px;
-}
-.div_content_github_btn:active{
-    background-color: rgba(192, 192, 192, 0.5);
-    color: blanchedalmond;
-    border-style: none;
-    font-size: 40px;
-    padding: 20px;
-    border-radius: 15px;
