@@ -78,7 +78,7 @@ input[type=text]{
     box-sizing: border-box;
     background-color: rgba(192, 192, 192, 0.5);
     border: none;
-    border-bottom: 5px solid aliceblue;
+    border-bottom: 2px solid blanchedalmond;
     font-size: 30px;
     padding: 5px;
 }
@@ -86,7 +86,7 @@ input[type=email]{
     box-sizing: border-box;
     background-color: rgba(192, 192, 192, 0.5);
     border: none;
-    border-bottom: 5px solid aliceblue;
+    border-bottom: 2px solid blanchedalmond;
     font-size: 30px;
     padding: 5px;
 }
