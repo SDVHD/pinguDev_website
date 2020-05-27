@@ -78,7 +78,6 @@ input[type=text]{
     box-sizing: border-box;
     background-color: rgba(192, 192, 192, 0.5);
     border: none;
-    border-bottom: 2px solid blanchedalmond;
     font-size: 30px;
     padding: 5px;
 }
@@ -86,13 +85,19 @@ input[type=email]{
     box-sizing: border-box;
     background-color: rgba(192, 192, 192, 0.5);
     border: none;
-    border-bottom: 2px solid blanchedalmond;
     font-size: 30px;
     padding: 5px;
+}
+input {
+    width: 50%;
+}
+input:focus {
+    border-bottom: 2px solid blanchedalmond;
 }
 textarea {
     background-color: rgba(192, 192, 192, 0.5);
     font-size: 30px;
     border: none;
     resize: none;
+    width: 50%;
 }
