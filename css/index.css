@@ -88,6 +88,13 @@ input[type=email]{
     font-size: 30px;
     padding: 5px;
 }
+input[type=password]{
+    box-sizing: border-box;
+    background-color: rgba(192, 192, 192, 0.5);
+    border: none;
+    font-size: 30px;
+    padding: 5px;
+}
 input {
     width: 50%;
 }
@@ -100,4 +107,13 @@ textarea {
     border: none;
     resize: none;
     width: 50%;
+}
+footer {
+    width: 100%;
+}
+.benutzer_style{
+    width: 15%;
+}
+.passwort_style{
+    width: 15%;
 }
