@@ -25,6 +25,7 @@ h1 .div_header_text{
 nav {
     background-color: black;
     width: 100%;
+    position: sticky;
 }
 .btn_nav{
     background-color: black;
@@ -33,10 +34,7 @@ nav {
     border-style: none;
     padding: 15px;
 }
-nav {
-    background-color: black;
-    width: 100%;
-  }
+
   .btn_nav {
     background-color: black;
     color: blanchedalmond;
