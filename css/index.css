@@ -146,8 +146,8 @@ footer {
 label {
     font-size: 25px;
 }
-.div_featurs {
+.div_features {
     background-color: rgba(192, 192, 192, 0.5);
     border-radius: 10px;
-    
+    padding: 5px;
 }
