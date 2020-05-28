@@ -22,12 +22,6 @@ h1 .div_header_text{
     height: 25%;
     display: block;
 }
-
-/*
- Top Navigation 
-*/
-
-/* Old css 
 nav {
     background-color: black;
     width: 100%;
@@ -39,7 +33,10 @@ nav {
     border-style: none;
     padding: 15px;
 }
-  
+nav {
+    background-color: black;
+    width: 100%;
+  }
   .btn_nav {
     background-color: black;
     color: blanchedalmond;
@@ -53,51 +50,6 @@ nav {
     border-style: none;
     padding: 10px;
   }
-  */
-
-  #navbar {
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  #navbar a {
-    float: left;
-    display: block;
-    background-color: black;
-    color: blanchedalmond;
-    border-style: none;
-    padding: 10px;
-    font-size: 25px;
-    text-decoration: none;
-  }
-  
-  #navbar a:hover {
-    background-color: rgb(88, 151, 160);
-    color: black;
-    border-style: none;
-    padding: 10px;
-  }
-  
-  #navbar a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
-  
-  .content {
-    padding: 16px;
-  }
-  
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  .sticky + .content {
-    padding-top: 60px;
-  }
-/* End Top Navigation */
-
 article {
     background-color: rgb(37, 37, 37);
     border-radius: 5px;
