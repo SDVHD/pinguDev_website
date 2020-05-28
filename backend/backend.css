@@ -2,7 +2,42 @@
     font-family: 'Roboto', sans-serif;
 }
 body {
+    display: grid;
+    grid-template-columns: 15% auto auto;
+    grid-template-rows: auto auto auto;
     background-color:  rgb(11, 13, 14);
 }
+header {
+    grid-row: 1;
+    grid-column: 1/4;
+}
+.div_title {
+    color: blanchedalmond;
+    background-color: black;
+    font-size: 40px;
+}
+
 .div_backend_nav {
+    padding: 5px;
+    background-color: black;
+    grid-row: 2;
+    grid-column: 1;
+    box-shadow: black 0px 5px 5px;
+
+}
+
+.btn_backend_nav {
+    font-size: 36px;
+    color: blanchedalmond;
+    background-color: black; 
+    border: none;
+    width: 100%;
+    text-align: left;
+}
+
+.btn_backend_nav:hover {
+    font-size: 36px;
+    color: blanchedalmond;
+    background-color: rgb(88, 151, 160);
+    border: none;
 }
