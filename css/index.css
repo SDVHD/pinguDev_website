@@ -107,6 +107,7 @@ textarea {
     border: none;
     resize: none;
     width: 50%;
+    padding-top: 5px;
 }
 footer {
     width: 100%;
@@ -116,4 +117,8 @@ footer {
 }
 .passwort_style{
     width: 15%;
+}
+label {
+    font-size: 25px;
+    padding: 30px;
 }
