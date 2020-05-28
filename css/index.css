@@ -73,6 +73,7 @@ article {
     padding: 30px;
     background-color: rgba(192, 192, 192, 0.5);
     text-align: center;
+    border-radius: 10px;
 }
 input[type=text]{
     box-sizing: border-box;
@@ -144,4 +145,9 @@ footer {
 }
 label {
     font-size: 25px;
+}
+.div_featurs {
+    background-color: rgba(192, 192, 192, 0.5);
+    border-radius: 10px;
+    
 }
