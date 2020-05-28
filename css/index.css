@@ -11,7 +11,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color:  rgb(11, 13, 14);;
+    background-color:  rgb(11, 13, 14);
 }
 
 h1 .div_header_text{
@@ -116,4 +116,32 @@ footer {
 }
 .passwort_style{
     width: 15%;
+}
+ 
+.btn_submit_form {
+    font-size: 25px;
+    background-color: rgb(11, 13, 14);
+    color: blanchedalmond;
+    width: 50%;
+    border: none;
+    padding: 5px;
+}
+.btn_submit_form:hover {
+    font-size: 25px;
+    background-color: rgba(41, 158, 37, 0.5);
+    color: blanchedalmond;
+    width: 50%;
+    border: none;
+    padding: 5px;
+}
+.btn_submit_form::after {
+    font-size: 25px;
+    background-color: rgb(88, 151, 160);
+    color: blanchedalmond;
+    width: 50%;
+    border: none;
+    padding: 5px;
+}
+label {
+    font-size: 25px;
 }
