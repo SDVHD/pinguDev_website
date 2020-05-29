@@ -1,3 +1,1 @@
-function check_login() {
-    
-}
+console.log("Hallo Backend")
